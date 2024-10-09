@@ -37,7 +37,3 @@ def predict_datapoint():
         print("after prediction")
 
         return render_template('home.html',results=results[0])
-
-if __name__ == "__main__":
-    print("Starting server at http://localhost:5000/")
-    app.run(port=5000, debug=True)
