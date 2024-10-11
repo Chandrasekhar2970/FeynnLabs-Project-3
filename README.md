@@ -2,19 +2,6 @@
 
 This project aims to predict student performance based on various factors such as gender, ethnicity, parental level of education, lunch type, test preparation course, and exam scores. The machine learning model trained on a dataset of student information can provide insights into predicting a student's performance in mathematics.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model Training](#model-training)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Project Structure](#project-structure)
-- [Author](#author)
-
 ## Introduction
 
 In today's educational landscape, understanding the factors that contribute to a student's academic performance is crucial for educators, parents, and policymakers. This project leverages machine learning techniques to predict a student's performance in mathematics based on various factors. By providing accurate predictions, this tool can help identify students who may need additional support and tailor educational strategies accordingly.
@@ -28,18 +15,6 @@ The Student Exam Performance Predictor project is developed for educational purp
 - Predicts student performance in mathematics based on multiple factors.
 - Provides insights into the influence of gender, ethnicity, parental level of education, lunch type, and test preparation course on student performance.
 - User-friendly interface for inputting student information and obtaining predictions.
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/skprasad117/Predicting-Student-Performance-Using-Machine-Learning.git`
-2. Navigate to the project directory: `cd Predicting-Student-Performance-Using-Machine-Learning`
-3. Install the required dependencies: `pip install -r requirements.txt`
-
-## Usage
-
-1. Run the application: `python app.py`
-2. Access the web interface in your browser at `http://localhost:5000`
-3. Fill in the student information and submit the form to obtain the predicted math score.
 
 ## Dataset
 
@@ -60,41 +35,3 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Project Structure
-
-The project has the following structure:
-    
-    ├───artifacts
-    ├───catboost_info
-    │ └───learn
-    ├───Notebook
-    │ └───data
-    ├───src
-    │ ├───components
-    │ └───pipeline
-    ├───static
-    │ └───css
-    └───templates
-
-- `artifacts`: This directory contains artifacts generated during the model training process.
-- `catboost_info`: This directory stores CatBoost model information.
-- `Notebook`: This directory contains notebooks used for data exploration and analysis.
-- `src`: This directory contains the source code for the project.
-  - `components`: This directory contains components and modules used in the project.
-  - `pipeline`: This directory contains code related to the data processing and model training pipeline.
-- `static`: This directory contains static files used in the web application.
-  - `css`: This directory contains CSS files for styling the web application.
-- `templates`: This directory contains HTML templates used in the web application.
-
-## Author
-Sanjay Kumar Prasad, You can also visit my GitHub profile: @skprasad117
-
-Feel free to reach out with any questions or feedback regarding the project.
-
-
-
-
-
-
-
